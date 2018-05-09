@@ -19,5 +19,5 @@ app.get('/image', function(req, res, next) {
 })
 
 app.post('/image', upload.single('file'), function(req, res, next) {
-  res.json({'result': 'success!'}
+  res.json({'result': 'success!'})
 })
