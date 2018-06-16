@@ -2,7 +2,7 @@ const express = require('express')
 const multer = require('multer')
 const fs = require('fs')
 const app = express()
-const IMAGE_PATH = '/var/image'
+const IMAGE_DIR = '/var/image'
 // const IMAGE_DIR = '/Users/amisris/tmp'
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
